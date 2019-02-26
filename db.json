@@ -1,0 +1,14 @@
+{
+  "pasta": {
+    "location": "aisle 1",
+    "price": "$1.75"
+  },
+  "peas": {
+    "location": "aisle 2",
+    "price": "$1.10"
+  },
+  "bread": {
+    "location": "aisle 3",
+    "price": "$2.25"
+  }
+}
