@@ -3,14 +3,14 @@ import json
 food_descriptors = dict()
     
 def write_db():
-    open('C:\\Users\\jvansch1\\Documents\\Programming\\Kevin\\db.json', 'w').close()  #Delete contents of current file
+    open('C:\\Users\\jvansch1\\Documents\\Programming\\db.json', 'w').close()  #Delete contents of current file
 
-    fh = open('C:\\Users\\jvansch1\\Documents\\Programming\\Kevin\\db.json', 'w')
+    fh = open('C:\\Users\\jvansch1\\Documents\\Programming\\db.json', 'w')
     json.dump(food_descriptors, fh, indent=4)
     fh.close()
 
 def load_db():
-    fh = open('C:\\Users\\jvansch1\\Documents\\Programming\\Kevin\\db.json', 'r')
+    fh = open('C:\\Users\\jvansch1\\Documents\\Programming\\db.json', 'r')
     global food_descriptors
     food_descriptors = json.load(fh)
     fh.close()
