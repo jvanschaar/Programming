@@ -1,14 +1,17 @@
 {
   "pasta": {
     "location": "aisle 1",
-    "price": "$1.75"
+    "price": "$1.75",
+    "coupon": "Yes"
   },
   "peas": {
     "location": "aisle 2",
-    "price": "$1.10"
+    "price": "$1.10",
+    "coupon": "No"
   },
   "bread": {
     "location": "aisle 3",
-    "price": "$3.75"
+    "price": "$3.75",
+    "coupon": "Yes"
   }
 }
