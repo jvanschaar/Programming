@@ -25,4 +25,7 @@ def get_inventory(token):
 
 token = get_token()
 inv = get_inventory(token)
-print(inv['response'][0]['softwareVersion'])
+print(inv['response'][0]['type'])
+
+for device in inv['response']:
+    print(device['type'])
